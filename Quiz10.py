@@ -24,7 +24,7 @@ class Rectangle():
 
 class Box(Rectangle):
     def __init__(self, length, width, height):
-        super().__init__(length, width) # 부모 클래스 생성자 호출
+        super().__init__(length, width)
         self.height = height
 
     def set_dimension(self, length, width, height): # 부모 클래스의 set_dimension 메소드를 오버라이딩
